@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<style>
+    /* width */
+    ::-webkit-scrollbar {
+        width: 20px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        width: 0
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: lightgray;
+        border-radius: 10px;
+    }
+</style>
+
+<body style="display: flex; align-items: center; justify-content: center;
+flex-direction: column;">
+    <input style="padding: 0.2rem; border-radius: 10px; text-align: center; font-size: 1.8rem;margin-top: 1rem;"
+        id="myguess" type="text" maxlength="4">
+    <div id="list"
+        style="padding: 2rem 1rem; border-radius: 10px; text-align: center; font-size: 2rem; max-height: 500px; overflow-y: scroll;">
+        <div id="first"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
